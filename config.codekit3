@@ -15,6 +15,12 @@
 		"oAP": "\/build\/.gitignore",
 		"oF": 0
 		},
+	"\/.surgeignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/.surgeignore",
+		"oF": 0
+		},
 	"\/bower.json": {
 		"ft": 524288,
 		"oA": 1,
