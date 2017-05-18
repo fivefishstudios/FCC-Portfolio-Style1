@@ -2524,8 +2524,8 @@
 		"oF": 0
 		},
 	"\/css\/portfolio.less": {
-		"aP": 1,
-		"bl": 1,
+		"aP": 0,
+		"bl": 0,
 		"dJ": 0,
 		"ft": 1,
 		"ie": 1,
@@ -2566,7 +2566,7 @@
 	"displayValue": "FCC Portfolio (Style1)",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-soon",
-	"lastBuiltDate": 516745240
+	"lastBuiltDate": 516726837
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
