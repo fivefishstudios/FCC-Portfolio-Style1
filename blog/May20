@@ -1,0 +1,126 @@
+Hey, all!  I thought I'd start a post of some sort that takes you along on a web design journey - from start to finish. 
+
+It's kinda like "live coding" but not real-time, instead I'll try to take you step-by-step on this journey of a website redesign of an existing live site. I'll post my thoughts on why I did this or that, design decisions I made, tools I use, problems encountered, etc. 
+
+Feel free to post questions, and I'll try to answer them best as I can.
+
+**BACKGROUND INFO:**  The website is owned by a family friend of ours, and they've been very good to my family in providing their professional services. So I thought I'd return the favor, in my own little way, by offering my web design services to them for free. 
+
+**ALSO! This post also serves as an accountability for me, to push me to finish this project to the very end. I have this very bad habit of neglecting and delaying pro-bono projects when deadlines from paid projects approach.** :) 
+
+With that introduction out of the way, let's go.... 
+
+----------
+This is their current website. From my understanding, they made it themselves several years ago. Looking at the source code, I can see it was made with WYSIWYG editor, Macromedia Dreamweaver. As you can see from the style, it's dated and I think it's time for a modern redesign.  
+
+https://image.ibb.co/gQT2oF/Eyedentity_Franklin.png
+
+My goals for this site redesign are: 
+
+1. Improve the looks and aesthetic of the site, bring it up to par to current design trends
+2. Re-organize, and make it easy for visitors to find information they need
+3. Make it mobile friendly, and responsive by using modern web frameworks
+4. Install analytics for web traffic monitoring
+5. Install necessary meta tags for facebook and twitter sharing to work
+-----------
+
+So where do I start? 
+
+First, I went over their current site and read everything to see what information/copy they have and what I can re-use. Then I tried to re-organize the information to something more logical (from the point of view of a prospective customer). After all, in the very end, the purpose of this website is to serve the visitor, and turn that visitor into a paying customer, and make a sale. 
+
+I used Microsoft OneNote to make my preliminary notes. (https://www.onenote.com/). All notes, tidbits of information, I'm going to store and organize in one notebook. 
+
+https://image.ibb.co/byFhoF/onenote.png
+
+For this site, I decided to go out of my comfort zone, ditch using Bootstrap and try using a new (to me) CSS framework called MaterializeCss. So I'll be learning about MaterializeCss as I go along.  
+
+FYI, MatrializeCSS is based on Google's Material Design philosophy. 
+http://www.materializecss.com 
+
+MaterializeCSS also uses jQuery, just like Bootstrap. I may also use VueJS for this, but I don't know yet how or if I even need to use VueJS. There's really not much interactivity required or two-way data binding needed for this site. 
+
+------------------
+The hardest step in web design (or redesign) is starting with a blank empty canvas! 
+
+I'm staring at a big white, empty canvas in Photoshop and there are just a million ways to go from here. I don't want the site to have a weird or avant-garde navigation because I want ordinary people (non-web savvy) to be able to use this site easily. 
+
+The reason I'm laying out the proposed site design in PhotoShop first is because I have no idea on what I want to do yet. By using Photoshop, I can easily move things around, change layouts, colors, fonts etc. and not be committed to it (because there is no code yet). 
+
+I think if you start coding HTML/CSS right away, you tend to stick to the first iteration you made and you end up with a not so good-looking site -- because we developers sometimes are lazy to make changes again. 
+
+-------------
+
+I'm going to design the site to fill up a WXGA size monitors (1366px, tablet/ultrabook size). I know the site will be responsive, and then I'll just make adjustments in the HTML and CSS code so the site still looks good on narrower and smaller displays.  For very wide displays 1600px & 1920px wide, the whole site will be centered on the screen and the left and right extra borders will just be filled with white space (or the same teal color).  
+
+--------------
+
+Colors - what color do I use? I took hints from the colors used on their current logo... Some sort of Teal color? I'll use various shades of Teal and maybe a complementary color for accent? And some blacks and grays.  
+
+Again, using Adobe Color to play with color combinations came in handy. 
+
+https://image.ibb.co/huz8TF/adobecolor.png
+
+------------
+
+So we need a header, we need a logo on the left side and a pull-down menu structure. We also need a hero shot below the header.  I also want all the contact information (email, phone#, social media accounts) be easily seen on the very top... so they need to be present in the header. 
+
+--------------
+
+
+The first design I came up with is this. Let's call this Design Option 1. 
+
+https://image.ibb.co/cWGivv/option1.png
+
+But I thought the header is too tall, and there's a lot of empty unused space in the header.  The gray + white + teal ribbons also made it look like a flag. -- I don't know if I like it.
+
+I'm not yet sold on what the right-side picture should be. I may change this to a shot of their office's interior space. -- or something else, don't know yet.  
+
+I used www.unsplash.com for the closeup photo of the eye. It's actually a big high-res photo of a face, but I just zoomed in and crop the eye part. I think it reinforces the company name "Eyedentity".  Unsplash.com lets you download FREE high-res photos for use in commercial or non-commercial projects. Attribution is fine, but not necessary.
+
+The other photo is a cropped picture I took with my iPhone about last year.  And the headshot is from the existing website. I may take a new headshot and office photos somewhere down the road -- we'll see. 
+
+For the fonts, I used Adobe Typekit (https://typekit.com/). This is similar to Google fonts service, but I think the quality is more highly curated. 
+
+The nice thing about being an Adobe CC Cloud member is for $50/month, you have access to ALL the Adobe professional programs and Web/Font Typekit. I chose a font that I can use on the web, and also download and use locally on my Mac. Once you've selected a font to use, it becomes immediately available in PhotoShop to use. Very convenient! 
+
+-----------
+
+I made another design iteration, attempting to reduce the height of the header section. Let's call this Design Option 2. 
+
+https://image.ibb.co/miYk8F/option2.png
+
+I moved the menu options to the white background and removed the gray ribbon banner. I've certainly reduced the height.  But I'm not totally sure how this menu will behave on narrower displays, so that's something I have to watch out for... I may have to go back to Option 1 but we'll see. 
+
+You'll notice the pull-down menu and the name-badge background isn't a solid Teal color. You can kinda see some part of the background image see-through. It's semi-transparent, but not too much. In CSS, I will have to adjust the opacity property.  
+
+On Design Option 2, there is also a slight shadow effect from the top header. This makes it seem the header is 3-dimensionally sitting higher than the hero shot. It's a small detail but I think it brings polish to the design.
+
+-------------
+
+These are the layers I used in Photoshop for the header section. You'll notice every element is organized in folders within folders and layers.  By grouping logical layers together in folders, it allows me to easily move complete sections to other parts of the web page while I play with the design layout. If these layers are not organized in folders, I'd have to either move the layers individually one by one, or link all related layers together and move them. I think folders is an easier way and cleaner way of doing it. 
+
+https://image.ibb.co/kNQCNa/layers1.png
+
+----------------
+
+Anyways, that's all for now for this first post. If you're interested in seeing future updates and following this journey, let me know so I can post future updates.  
+
+Cheers! 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

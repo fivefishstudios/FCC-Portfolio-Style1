@@ -21,6 +21,12 @@
 		"oAP": "\/build\/.surgeignore",
 		"oF": 0
 		},
+	"\/blog\/May20": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/blog\/May20",
+		"oF": 0
+		},
 	"\/bower.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -2552,6 +2558,17 @@
 		"sM": 0,
 		"sU": 0
 		},
+	"\/images\/bonnieG.png": {
+		"ft": 32768,
+		"iS": 12325,
+		"oA": 0,
+		"oAP": "\/build\/images\/bonnieG.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 2,
+		"q": 80
+		},
 	"\/images\/codescreen.jpeg": {
 		"ft": 16384,
 		"iS": 363366,
@@ -2562,11 +2579,49 @@
 		"opt": 1,
 		"q": 81
 		},
+	"\/images\/splash1.jpg": {
+		"ft": 16384,
+		"iS": 2625777,
+		"oA": 0,
+		"oAP": "\/build\/images\/splash1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 81
+		},
+	"\/images\/splash2.jpg": {
+		"ft": 16384,
+		"iS": 471107,
+		"oA": 0,
+		"oAP": "\/build\/images\/splash2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 81
+		},
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/build\/index.html",
 		"oF": 0
+		},
+	"\/js\/app.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/build\/js\/app.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/smoothScroll.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 0,
+		"oAP": "\/build\/js\/smoothScroll.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/LICENSE": {
 		"ft": 8192,
@@ -2602,7 +2657,7 @@
 	"displayValue": "FCC Portfolio (Style1)",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-soon",
-	"lastBuiltDate": 516782440
+	"lastBuiltDate": 516927608
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -4370,7 +4425,7 @@
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*-min.js",
+		"autoOutputPathFilenamePattern": "*.js",
 		"autoOutputPathRelativePath": "\/min",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",

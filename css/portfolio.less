@@ -1,3 +1,10 @@
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+  margin: 0px;
+  padding: 0px;
+  font-size: 1.2em;
+}
 
 .mycontainer{
   /* This should be in a media query so we can control the width, depending on browser size. 
@@ -5,11 +12,26 @@
   */
   width: 85%;
   margin: auto;
-}
-.col {
-  border: 1px solid #EEE;
-  padding-top: 10px !important;
-  padding-bottom: 10px !important;
-  text-align: center;
+  background-color: #FFF;
 }
 
+
+.parallax {
+    position: static !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-attachment: fixed;
+    transition: .15s ease-in-out;
+    transition-property: background-position;
+}
+
+.parallax-container {
+  height: 750px;
+  background-attachment: fixed;
+}
+
+.splash2{
+  height: 400px;
+}

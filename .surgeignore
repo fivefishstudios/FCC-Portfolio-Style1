@@ -1,3 +1,2 @@
-!bower_components/*
-!css
-!images
+!scripts/
+!bower_components
